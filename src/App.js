@@ -1,16 +1,14 @@
 import React, { Component } from "react"
 import "./App.css";
-import  NavbarBurger  from "./navBar";
+import  NavbarBurger  from "./Componentes/navBar";
 
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
-      
-      <NavbarBurger>
-        
-      </NavbarBurger>
-      </React.Fragment>
+      <div>
+        <NavbarBurger>
+        </NavbarBurger>
+      </div>
     );
   }
 }
