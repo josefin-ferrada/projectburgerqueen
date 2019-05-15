@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import CounterProduct from "./CounterProduct";
 
 class Breakfast extends Component {
     render(){
@@ -25,25 +26,28 @@ class Breakfast extends Component {
                 </thead>
                 <tbody>
                     <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
+                    <th scope="row"><CounterProduct/></th>
+                    <td>Cafe americanon</td>
+                    <td>$500</td>
                     
                     </tr>
                     <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
+                    <th scope="row"><CounterProduct/></th>
+                    <td>Cafe con leche</td>
+                    <td>$700</td>
                     
                     </tr>
                     <tr>
-                    <th scope="row">3</th>
-                    <td colSpan="2">Larry the Bird</td>
+                    <th scope="row"><CounterProduct/></th>
+                    <td >Sandwich jamón-queso</td>
+                    <td>$1000</td>
                     
                     </tr>
                 </tbody>
             </table>
-            
+            <div>
+                
+            </div>
 
         </div>
 
